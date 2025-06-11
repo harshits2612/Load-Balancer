@@ -20,7 +20,7 @@ The following code illustrates an example of a two-layer MoE model, and each lay
 import torch
 import eplb
 
-weight = torch.tensor([[ 90, 132,  40,  61, 104, 165,  39,   4,  73,  56, 183,  86],
+weight = torch.tensor ([[ 90, 132,  40,  61, 104, 165,  39,   4,  73,  56, 183,  86],
                        [ 20, 107, 104,  64,  19, 197, 187, 157, 172,  86,  16,  27]])
 
 num_replicas = 16
